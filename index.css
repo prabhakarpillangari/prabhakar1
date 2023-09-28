@@ -1,0 +1,702 @@
+* {
+   padding: 0;
+   margin: 0;
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: rgb(0, 0, 33);
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   height: 2600px;
+   padding-top: 80px;
+   width: 100%;
+   /* padding-top: 80px; */
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+header {
+   position: fixed;
+   top: 0;
+   width: 100%;
+}
+
+nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 80px;
+   background-color: rgb(10, 18, 62);
+}
+
+nav a {
+   margin: 0 20px;
+   color: white;
+   text-decoration: none;
+}
+
+.left {
+   font-size: 1.5rem;
+}
+
+#firstSection {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   /* margin:76px 0; */
+}
+
+#firstSection>div {
+   width: 30%;
+}
+
+.leftSection {
+   /* background-color: red; */
+   width: 30%;
+   font-size: 1.8rem;
+   margin: 130px 0 0 30px;
+}
+
+.rightSection {
+   margin: 0 100px 0 70px;
+}
+
+.rightSection .prabha {
+   height: 300px;
+   width: 300px;
+   margin: 100px 0px 0 60px;
+   background-color: whitesmoke;
+   padding: 3px;
+   border-radius: 6px;
+}
+
+.rightSection img {
+   height: 100%;
+   width: 100%;
+   border-radius: 6px;
+}
+
+.purple {
+   color: rgb(170, 107, 228);
+}
+
+#element {
+   color: rgb(170, 107, 228);
+}
+
+.leftSection button {
+   background-color: rgb(170, 50, 228);
+   color: white;
+   margin: 30px 0 0 0;
+   padding: 10px 20px 10px 20px;
+   border: none;
+   border-radius: 3px;
+   transition: 1s;
+}
+
+.leftSection button:hover {
+   transform: scale(1.1);
+}
+
+.leftSection .social {
+   margin: 20px 0px 0px 0px;
+}
+
+.leftSection img {
+   height: 30px;
+   width: 30px;
+}
+
+#twitter {
+   border-radius: 50px;
+}
+
+.social .s1 {
+   margin: 4px 0 0 0;
+   height: 80px;
+   width: 60px;
+   /* padding: 50px; */
+}
+
+.social .s1:hover {
+   transform: scale(1.1);
+}
+
+.social .s2 {
+   margin: 6px 5px 6px -10px;
+   height: 60px;
+   width: 60px;
+   /* padding: 50px; */
+}
+
+.social .s2:hover {
+   transform: scale(1.1);
+}
+
+.social .s0:hover {
+   transform: scale(1.1);
+}
+
+.social .s3 {
+   margin: 0px 5px 6px -10px;
+   height: 37px;
+   width: 40px;
+   /* padding: 50px; */
+}
+
+.social .s3:hover {
+   transform: scale(1.1);
+}
+
+.social {
+   display: flex;
+   align-items: center;
+   margin-top: 20px;
+}
+
+hr {
+   border: 0px;
+   background: #9c97f1;
+   height: 1.2px;
+   margin: 40px 84px;
+}
+
+/* --------------skill--------------*/
+#skill {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 96px 0 0 40px;
+   /* margin: 150px 0 0 25px; */
+}
+
+.content {
+   display: flex;
+   flex-direction: row;
+   /* Display elements horizontally by default */
+}
+
+.west,
+.east {
+   height: 50%;
+   width: 50%;
+}
+
+.west {
+   margin: 0 0 0 40px;
+}
+
+.east {
+   margin: 0 100px 0 0px;
+}
+
+.row1,
+.row2 {
+   display: flex;
+   justify-content: space-evenly;
+   margin: 28px 120px 43px 6px;
+}
+
+.box1,
+.box2 {
+   height: 145px;
+   width: 145px;
+   background-color: rgb(10, 18, 62);
+   border: 1px solid white;
+   border-radius: 12px;
+   transition: width 2s, height 2s, transform 2s;
+}
+
+.box1:hover {
+   border: none;
+   transform: scale(1.2);
+
+}
+
+.box2:hover {
+   border: none;
+   transform: scale(1.2);
+}
+
+.devil {
+   padding: 22px 30px 10px 40px;
+   height: 50%;
+   width: 50%;
+}
+
+h6 {
+   text-align: center;
+}
+
+/*-------east----------*/
+.can {
+   color: rgb(75, 100, 175);
+}
+
+.main {
+   font-size: 14px;
+   margin: 13px 0 43px 0;
+   line-height: 1.5;
+}
+
+.east h5 {
+   margin: 31px 0 0 0;
+
+}
+
+.east h1 {
+   margin: 4px 0 0 0;
+}
+
+.main1 {
+   font-size: 14px;
+   margin: 5px 0 80px 0;
+   line-height: 1.8;
+}
+
+/*--*/
+#projects {
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-bottom: 20px;
+   padding: 32px 0 0 0;
+}
+
+.north {
+   margin: 90px 100px 0 117px;
+}
+
+.north #title {
+   /* padding: 10 0 20 0; */
+   margin: 0 0 40px 0;
+}
+
+#t1 {
+   color: rgb(75, 100, 175);
+}
+
+.d1 {
+   display: flex;
+}
+
+.d1 img {
+   margin: 0 0 0 12px;
+   height: 30px;
+   width: 30px;
+}
+
+div .b1 {
+   background-color: rgb(75, 100, 175);
+   color: white;
+   padding: 8px 18px;
+   margin: 22px 15px 22px 0;
+   border: none;
+   border-radius: 5px;
+   transition: 2s;
+}
+
+div .b1:hover {
+   transform: scale(1.1);
+}
+
+.Visit {
+   background-color: rgb(0, 0, 70);
+   color: white;
+   margin: 20px 0 0 0;
+   padding: 10px 20px;
+   border: 1px solid white;
+   border-radius: 3px;
+   transition: 2s;
+}
+
+.Visit:hover {
+   transform: scale(1.1);
+}
+
+.para {
+   font-size: 13px;
+   line-height: 1.6;
+}
+
+.south {
+   margin: 0 0 50px 0;
+}
+
+.south .box {
+   height: 260px;
+   width: 400px;
+   background-color: white;
+   margin: 90px 120px 0 25px;
+   padding: 2px;
+   border-radius: 10px;
+}
+
+.box img {
+   height: 260px;
+   width: 400px;
+   border-radius: 10px;
+   /* padding: 4px 4px 4px 4px; */
+}
+
+/*---education--*/
+#Education {
+   margin: 10px 0 200px 120px;
+   padding: 40px 0 0 0;
+   position: absolute;
+   /* left: 0px;
+   top: 0px; */
+   z-index: -1;
+}
+
+.edubox {
+   background: white;
+   width: 80vw;
+   height: 2px;
+   margin: 87px 0;
+   display: flex;
+}
+
+.edubox .vertical {
+   height: 93px;
+   width: 1px;
+   background-color: white;
+   margin: 5px 160px;
+}
+
+.vertical-title {
+   position: relative;
+   top: 79px;
+   width: 300px;
+}
+
+.image-top {
+   width: 23px;
+   position: relative;
+   top: -32px;
+   left: -9px;
+}
+
+.vertical-desc {
+   position: relative;
+   top: 87px;
+   width: 300px;
+   font-size: 9px;
+   margin: 0 0 0 20px;
+}
+
+#Education h1 {
+   margin: 50px 0px;
+}
+
+/*------contact-------*/
+#contact {
+   margin: 480px 0 0 0px;
+   align-items: center;
+   padding: 100px 0 0 0;
+}
+
+#contact h1 {
+   text-align: center;
+
+}
+
+#contact h4 {
+   text-align: center;
+}
+
+#contact .details {
+   margin: auto;
+   width: 41%;
+   /* border: 3px solid green; */
+   padding: 10px;
+   color: white;
+}
+
+.details .place {
+   height: 35px;
+   width: 100%;
+   margin-top: 15px;
+   padding: 0 10px;
+   border-radius: 8px;
+   background-color: rgb(0, 0, 33);
+   border: 2 solid white;
+   color: white;
+}
+
+#place1 {
+   height: 40px;
+   width: 102%;
+   margin-top: 13px;
+   padding: 0px 0px 10px 10px;
+   border-radius: 8px;
+   background-color: rgb(0, 0, 33);
+   color: white;
+}
+
+input {
+   border: 2px solid white;
+   /* Set the border color to white */
+   padding: 10px;
+   /* Add some padding for better visibility */
+}
+
+input::placeholder {
+   color: #999;
+}
+
+.center-con {
+   display: flex;
+   justify-content: center;
+}
+
+#btn {
+   background-color: rgb(0, 0, 70);
+   color: white;
+   padding: 12px 20px;
+   margin: 25px 0;
+   border: 2px solid white;
+   border-radius: 5px;
+   transition: 1s;
+}
+
+#btn:hover {
+   background-color: rgb(0, 0, 33);
+   color: white;
+   transform: scale(1.2);
+}
+
+.voile {
+   color: rgb(170, 107, 228);
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+      width: 375px;
+      height: 100%;
+      /* padding-left: 10px; */
+      /* Decrease the width for mobile devices */
+      /* Add other mobile-specific styles */
+   }
+   /* .left {
+      margin-right: 00px;
+   } */
+   .rightSection .prabha{
+     width: 150px;
+     height: 150px;
+     margin: 0px 0px 0px 50px;
+   }
+    #firstSection>div {
+      width: 41%;
+   }
+   
+   .rightSection {
+      margin: 0 0px 0 0px;
+     padding-right: 60px;
+  }
+   .leftSection {
+      width: 350px;
+      font-size: 1.2rem;
+      /* padding-left: 50px; */
+   }
+   .row1, 
+   .row2 {
+      display: block;
+      flex-direction: column;
+      /* Remove flex layout, elements will be displayed as blocks */
+   }
+
+   .row .box1 {
+      height: 400px;
+      width: 500px;
+   }
+
+   #skill {
+      display: block;
+      /* flex-direction: column; */
+      padding: 50px 0 0 30px;
+      flex-direction: column-reverse;
+   }
+
+   .east {
+      width: 90%;
+   }
+
+   .row1,
+   .row2 {
+      display: flex;
+      justify-content: space-evenly;
+      margin: 0px 200px 0px 38px;
+   }
+
+   .west {
+      margin: 0px 0px 0px 20px;
+   }
+
+   .box1,
+   .box2 {
+      height: 190px;
+      width: 220px;
+      background-color: rgb(10, 18, 62);
+      border: 1px solid white;
+      border-radius: 12px;
+      margin-bottom: 50px;
+      transition: width 2s, height 2s, transform 2s;
+   }
+
+   .content {
+      flex-direction: column-reverse;
+      /* Display elements vertically, reversing the order for mobile devices */
+   }
+
+   .devil {
+      padding-left: 55px;
+   }
+
+   /*---project----*/
+   #projects {
+      display: block;
+   }
+
+   .north {
+      margin: 0px 100px 0 50px;
+   }
+   div .b1 {
+      background-color: rgb(75, 100, 175);
+      color: white;
+      padding: 8px 14px;
+      margin: 10px 10px 15px 0;
+      border: none;
+      /* border-radius: 5px; */
+      transition: 2s;
+   }
+   div .b{
+      width: 250px;
+   }
+   div .para{
+      width: 247px; 
+   }
+.d1 img{
+   margin: 20px 0 12px 12px;
+   height: 50px;
+   width: 50px;
+}
+.d1{
+   margin-bottom: 10px;
+}
+  
+.south {
+   margin: 0 0 10px 70px;
+}
+
+.south .box {
+   height: 230px;
+   width: 250px;
+   background-color: white;
+   margin: 90px 120px 0 25px;
+   padding: 2px;
+   border-radius: 10px;
+}
+.south .box img{
+   height: 230px;
+   width: 250px;
+}
+
+.edubox {
+   width: 2px;
+   height: 430px;
+   background: white;
+}
+
+.edubox .vertical {
+   height: 1px;
+   width: 93px;
+   background-color: white;
+   margin: 5px 10px;
+}
+.image-top {
+   width: 23px;
+   position: relative;
+   top: -32px;
+   left: -9px;
+}
+.vertical-desc {
+   position: relative;
+   top: 0px;
+   width: 300px;
+   font-size: 9px;
+   margin: 0 0 0 20px;
+}
+.vertical-title{
+   position: relative;
+   top: -8px;
+}
+.edubox  #onev1{
+   height: 1px;
+   width: 190px;
+   background-color: white;
+   margin: 5px 10px;
+   /* display: none; */
+}
+.edubox  #onev3{
+   height: 1px;
+   width: 190px;
+   background-color: white;
+   
+   margin: 320px 30px 0 -220px;
+   /* display: none; */
+}
+.edubox  #onev2{
+   height: 1px;
+   width: 190px;
+   background-color: white;
+   margin: 160px 30px 0 -190px;
+   /* display: none; */
+}
+#contact {
+   margin: 620px 0 0 0px;
+   align-items: center;
+   padding: 100px 0 0 0;
+}
+#Education{
+   margin: 0 0 0 60px;
+}
+#btn {
+   background-color: rgb(0, 0, 70);
+   color: white;
+   height: 40px;
+   width: 133px;
+   transition: 1s;
+   /* display: none; */
+}
+#contact .details{
+   padding-right: 100px;
+}
+#contact{
+   padding-left: 20px;
+}
+#contact .place{
+   height: 35px;
+   width: 210px;
+}
+#contact .details #place1{
+   height: 40px;
+   width: 220px;
+}
+nav .left {
+   font-size: 2.0rem;
+   /* display: none; */
+   /* margin-left:70px; */
+   /* padding-left: 300px; */
+}
+nav .right{
+   display: none;
+}
+nav .right,.myname{
+   display: none;
+}
+
+}
